@@ -1,0 +1,163 @@
+body {
+    background-color: white;
+    font-family: 'Lato', sans-serif;
+    color: black;
+}
+
+.nav_bar {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+header {
+    padding: 0;
+    margin: 0 auto;
+    background-color: #F27405;
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.logo {
+    float: left;
+    padding: 10px;
+    padding-left: 30px;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    margin-bottom: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 40px;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    margin-right: 80px;
+
+    position: relative;
+}
+
+nav a {
+    color: rgb(104, 47, 32);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    color: #000;
+}
+
+nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    background-color: white;
+
+    position: absolute;
+    top: 5px;
+    width:0%;
+
+    transition: all ease-in-out 200ms;
+}
+
+nav a:hover::before {
+    width: 100%;
+}
+
+#bio {
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: justify;
+    text-justify: inter-word;
+}
+#skills {
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+#web {
+    width: 15%;
+    height: auto;
+    padding-left: 5%;
+}
+#java {
+    width: 10%;
+    height: auto;
+    padding-left: 5%;
+}
+#python {
+    width: 10%;
+    height: auto;
+    padding-left: 5%;
+}
+#react {
+    width: 15%;
+    height: auto;
+    padding-left: 5%;
+}
+#node {
+    width: 15%;
+    height: auto;
+    padding-left: 5%;
+}
+
+#banner {
+    background-image:  url("images/pic.png");
+    width:auto;
+	max-width:100%;
+	height:auto;
+    padding: 200px 200px
+}
+
+h1 {
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 15px;
+    word-spacing: 30px;
+    font-size: 40px;
+}
+
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+}
+
+.button {
+    transition-duration: 0.15s;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: white; 
+    color: black; 
+    border: 5px solid #F27405;
+    font-size: 15px;
+    width: 150px;
+    height: 50px;
+  }
+
+.button1:hover {
+    background-color: #F27405;
+    color: white;
+}
+
+#projects {
+    padding-left: 25%;
+    padding-right: 25%;
+}
