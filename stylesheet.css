@@ -81,10 +81,10 @@ nav a:hover::before {
     text-align: justify;
     text-justify: inter-word;
 }
+
 #skills {
     padding-left: 20%;
     padding-right: 20%;
-    text-align: center;
 }
 
 tr {
