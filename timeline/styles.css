@@ -1,0 +1,104 @@
+body, html {
+    font-family: 'Source Sans Pro', sans-serif;
+    height: 100%;
+}
+
+.background {
+    height: 150%;
+}
+.banner {
+    background-image: url(image/banner.png);
+    filter: blur(8px);
+    -webkit-filter: blur(3px);
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: translate(0%, -330%);
+}
+.title {
+    background-color: rgba(255, 255, 255, 0.349);
+    width: 30%;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgba(0, 0, 0, 0.349);
+    border-radius: 10px;
+    z-index: 2;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -85%);
+}
+
+.title img {
+    padding: 30px;
+    width: 70%;
+}
+
+.title h2 {
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}
+
+#abstract {
+    width: 60%;
+    text-align: justify;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.349);
+    width: 75%;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgba(0, 0, 0, 0.349);
+    border-radius: 10px;
+    z-index: 2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.container h1{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding: 2.5%;
+}
+
+.container em {
+    color: red;
+}
+
+.container p {
+    color: black;
+    width: 85%;
+}
+.accordion {
+    background-color: rgba(255, 255, 255, 0.349);
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 65%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+  }
+  
+  .active, .accordion:hover {
+    background-color: rgb(179, 212, 255);
+  }
+  
+  .panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+    font-size: 18px;
+  }
+
+  .accordion img {
+      width: 10%;
+  }
