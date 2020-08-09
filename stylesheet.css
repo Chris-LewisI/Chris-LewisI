@@ -16,7 +16,7 @@ body {
 header {
     padding: 0;
     margin: 0 auto;
-    background-color: rgb(18, 148, 235);
+    background-color: #ff9a76;
 }
 
 header::after {
@@ -115,18 +115,15 @@ tr {
 }
 
 #banner {
-    background-image:  url("images/1.png");
-    background-size: auto;
-    background-repeat: no-repeat;
+    background-color: #ffeadb;
     width: auto;
-	max-width:100%;
 	height:auto;
-    padding: 400px 200px;
+    padding: 15% 200px;
     background-position: center;
 }
 
 h1 {
-    color: white;
+    color: black;
     text-transform: uppercase;
     text-align: center;
     letter-spacing: 15px;
@@ -149,14 +146,14 @@ h2 {
 .button1 {
     background-color: white; 
     color: black; 
-    border: 5px solid rgb(18, 148, 235);
+    border: 5px solid #f7c5a8;
     font-size: 15px;
     width: 150px;
     height: 50px;
   }
 
 .button1:hover {
-    background-color: rgb(18, 148, 235);
+    background-color: #f7c5a8;
     color: white;
 }
 
