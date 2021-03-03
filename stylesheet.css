@@ -3,8 +3,14 @@ body {
     margin-left: 0;
     margin-right: 0;
     background-color: white;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Rubik', sans-serif;
     color: black;
+}
+
+hr {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 10%;
 }
 
 .nav_bar {
@@ -14,9 +20,8 @@ body {
 }
 
 header {
-    padding: 0;
+    padding-bottom: 5%;
     margin: 0 auto;
-    background-color: #ff9a76;
 }
 
 header::after {
@@ -26,7 +31,7 @@ header::after {
 }
 
 nav {
-    float: right;
+    text-align: center;
 }
 
 nav ul {
@@ -36,17 +41,15 @@ nav ul {
 }
 
 nav li {
-    display: inline-block;
-    margin-left: 40px;
-    padding-top: 25px;
-    padding-bottom: 10px;
-    margin-right: 80px;
-
+    display: inline-block;    
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 10px;
     position: relative;
 }
 
 nav a {
-    color: rgb(255, 255, 255);
+    color: black;
     text-decoration: none;
     text-transform: uppercase;
 }
@@ -59,7 +62,7 @@ nav a::before {
     content: '';
     display: block;
     height: 5px;
-    background-color: white;
+    background-color: black;
 
     position: absolute;
     top: 5px;
@@ -80,55 +83,38 @@ nav a:hover::before {
 }
 
 #skills {
-    padding-left: 20%;
-    padding-right: 20%;
-}
-
-tr {
     text-align: center;
 }
 
-#web {
-    width: 15%;
-    height: auto;
-    padding-left: 5%;
-}
-#java {
-    width: 10%;
-    height: auto;
-    padding-left: 5%;
-}
-#python {
-    width: 10%;
-    height: auto;
-    padding-left: 5%;
-}
-#react {
-    width: 15%;
-    height: auto;
-    padding-left: 5%;
-}
-#node {
-    width: 15%;
-    height: auto;
-    padding-left: 5%;
+#skills-content img{
+    float: left;
+    /* position: absolute; */
+    /* margin: auto; */
 }
 
-#banner {
-    background-color: #ffeadb;
-    width: auto;
-	height:auto;
-    padding: 15% 200px;
-    background-position: center;
+#laptop {
+    width: 20%;
+    height: auto;
+    align-items: flex-end;
 }
 
-h1 {
+#title h1 {
     color: black;
     text-transform: uppercase;
     text-align: center;
-    letter-spacing: 15px;
-    word-spacing: 30px;
+    letter-spacing: 10px;
+    word-spacing: 20px;
     font-size: 40px;
+}
+
+#title h3 {
+    color: gray;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 5px;
+    word-spacing: 15px;
+    font-size: 20px;
+    padding-bottom: 3%;
 }
 
 h2 {
