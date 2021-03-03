@@ -102,23 +102,26 @@ h2 {
 }
 
 
-#skills {
-    margin-left: 20%;
-    margin-right: 20%;
-    padding: 5%
+#career {
+    margin-left: 25%;
+    margin-right: 25%;
+    display: flex;
 }
 
-    #skills img{
-        float: left;
-        width: 30%;
-        height: auto;
-        padding-right: 10%;
-        padding-bottom: 15%;
+    .images {
+        flex: 1;
+    }
+    .text {
+        flex: 1;
     }
 
-    #skills p{
+    #career img{
+        width: 60%;
+        height: auto;
+    }
+
+    #career p {
         text-align: justify;
-        padding-left: 10%;
     }
 
 #resume img{
