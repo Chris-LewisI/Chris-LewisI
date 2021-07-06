@@ -4,6 +4,11 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+h1 {
+    letter-spacing: 5px;
+    word-spacing: 7px;
+}
+
 hr {
     margin-top: 2%;
     margin-right: 10%;
@@ -36,7 +41,7 @@ p {
     border-radius: 25px;
     margin-right: 10%;
     margin-left: 10%;
-    box-shadow: -5px 5px #999999;
+    box-shadow: -5px 5px #d3d3d3;
 }
 
 #Projects {
@@ -44,5 +49,5 @@ p {
     border-radius: 25px;
     margin-right: 10%;
     margin-left: 10%;
-    box-shadow: -5px 5px #999999;
+    box-shadow: -5px 5px #d3d3d3;
 }
