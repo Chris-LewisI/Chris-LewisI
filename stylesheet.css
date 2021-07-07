@@ -36,6 +36,15 @@ h4 {
     border-radius: 25px;
     margin-right: 10%;
     margin-left: 10%;
+    margin-bottom: 3%;
+    box-shadow: -5px 5px #d3d3d3;
+}
+
+#Resume {
+    background-color: #ffffff;
+    border-radius: 25px;
+    margin-right: 10%;
+    margin-left: 10%;
     box-shadow: -5px 5px #d3d3d3;
 }
 
