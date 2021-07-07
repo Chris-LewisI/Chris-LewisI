@@ -34,8 +34,8 @@ h4 {
 #About_Me {
     background-color: #fffbf9;
     border-radius: 25px;
-    margin-right: 10%;
-    margin-left: 10%;
+    margin-right: 2%;
+    margin-left: 2%;
     margin-bottom: 3%;
     box-shadow: -5px 5px #d3d3d3;
 }
@@ -43,15 +43,16 @@ h4 {
 #Resume {
     background-color: #ffffff;
     border-radius: 25px;
-    margin-right: 10%;
-    margin-left: 10%;
+    margin-right: 2%;
+    margin-left: 2%;
     box-shadow: -5px 5px #d3d3d3;
 }
 
 #Projects {
     background-color: #fffbf9;
     border-radius: 25px;
-    margin-right: 10%;
-    margin-left: 10%;
+    margin-top: 3%;
+    margin-right: 2%;
+    margin-left: 2%;
     box-shadow: -5px 5px #d3d3d3;
 }
