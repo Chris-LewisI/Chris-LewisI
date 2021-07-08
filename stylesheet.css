@@ -1,5 +1,4 @@
 body {
-    margin-top: 15%;
     margin-bottom: 3%;
     font-family: 'Roboto', sans-serif;
 }
@@ -9,11 +8,8 @@ h1 {
     word-spacing: 7px;
 }
 
-hr {
-    margin-top: 2%;
-    margin-right: 10%;
-    margin-left: 10%;
-    margin-bottom: 2%;
+a {
+    text-transform: uppercase;
 }
 
 h4 {
@@ -24,11 +20,6 @@ h4 {
     word-spacing: 15px;
     font-size: 20px;
     padding-bottom: 3%;
-}
-
-p {
-    margin-right: 5%;
-    margin-left: 5%;
 }
 
 [class*="col-"] {
