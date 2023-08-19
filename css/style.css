@@ -56,7 +56,7 @@ section {
 
 img {
     display: block;
-    max-width: 100%;
+    max-width: 70%;
 }
 
 strong { font-weight: var(--fw-bold) }
@@ -87,6 +87,11 @@ strong { font-weight: var(--fw-bold) }
 }
 
 /* Typography */
+
+a {
+    text-decoration: none;
+    color: #FFBB98;
+}
 
 h1,
 h2,
